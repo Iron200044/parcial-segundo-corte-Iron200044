@@ -1,7 +1,7 @@
 const express=require('express')
 const router = express.Router();
 //Solicitud get default para coin
-router.get('coin',(req,res)=>{
+router.get('/',(req,res)=>{
   res.send("Trabajando desde 'Coin'.")
 })
 // Solicitud get que consume la API para obtener el precio de una moneda

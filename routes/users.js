@@ -123,10 +123,6 @@ const listaUsers=[
       "apellidos": "AZCONA"
     }
 ]
-//Solicitud get default
-router.get('/',(req,res)=>{
-  res.send("Trabajando desde 'Users'.");
-})
 //Solicitud get de mostrar los usuarios
 router.get('/:count?',(req,res)=>{
     // Obtener el parámetro count de la URL
